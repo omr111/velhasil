@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82DE164F-092C-41B9-8DE4-A5599EE2CDFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>velhasil.Bll</RootNamespace>
+    <AssemblyName>velhasil.Bll</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>27dd78de</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\IadBll.cs" />
+    <Compile Include="Abstract\IchannelBll.cs" />
+    <Compile Include="Abstract\IentryBll.cs" />
+    <Compile Include="Abstract\IentryCommentBll.cs" />
+    <Compile Include="Abstract\IentryCommentLikeBll.cs" />
+    <Compile Include="Abstract\ImessageBll.cs" />
+    <Compile Include="Abstract\IroleBll.cs" />
+    <Compile Include="Abstract\IsiteAboutBll.cs" />
+    <Compile Include="Abstract\IsssBll.cs" />
+    <Compile Include="Abstract\ItermsOfUseBll.cs" />
+    <Compile Include="Abstract\IticketBll.cs" />
+    <Compile Include="Abstract\IUserBll.cs" />
+    <Compile Include="Abstract\IuserEntryBll.cs" />
+    <Compile Include="Abstract\IuserRoleBll.cs" />
+    <Compile Include="Concrete\adBll.cs" />
+    <Compile Include="Concrete\channelBll.cs" />
+    <Compile Include="Concrete\entryBll.cs" />
+    <Compile Include="Concrete\entryCommentBll.cs" />
+    <Compile Include="Concrete\entryCommentLikeBll.cs" />
+    <Compile Include="Concrete\messageBll.cs" />
+    <Compile Include="Concrete\roleBll.cs" />
+    <Compile Include="Concrete\siteAboutBll.cs" />
+    <Compile Include="Concrete\sssBll.cs" />
+    <Compile Include="Concrete\termsOfUseBll.cs" />
+    <Compile Include="Concrete\ticketBll.cs" />
+    <Compile Include="Concrete\UserBll.cs" />
+    <Compile Include="Concrete\userEntryBll.cs" />
+    <Compile Include="Concrete\userRoleBll.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

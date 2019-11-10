@@ -1,0 +1,10 @@
+D:\omr111-GitHub\velhasil\velhasil.Bll\bin\Debug\velhasil.Bll.dll.config
+D:\omr111-GitHub\velhasil\velhasil.Bll\bin\Debug\velhasil.Bll.dll
+D:\omr111-GitHub\velhasil\velhasil.Bll\bin\Debug\velhasil.Bll.pdb
+D:\omr111-GitHub\velhasil\velhasil.Bll\bin\Debug\EntityFramework.dll
+D:\omr111-GitHub\velhasil\velhasil.Bll\bin\Debug\EntityFramework.SqlServer.dll
+D:\omr111-GitHub\velhasil\velhasil.Bll\bin\Debug\EntityFramework.xml
+D:\omr111-GitHub\velhasil\velhasil.Bll\bin\Debug\EntityFramework.SqlServer.xml
+D:\omr111-GitHub\velhasil\velhasil.Bll\obj\Debug\velhasil.Bll.csprojResolveAssemblyReference.cache
+D:\omr111-GitHub\velhasil\velhasil.Bll\obj\Debug\velhasil.Bll.dll
+D:\omr111-GitHub\velhasil\velhasil.Bll\obj\Debug\velhasil.Bll.pdb
